@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <title>Score Keeper</title>
+
+        <style>
+                                                            .winner {
+                                                                color: green;
+                                                            }
+                                                            .loser {
+                                                                color: red;
+                                                            }
+                                                        </style>
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-2by1">
+                                    <img src="https://i.postimg.cc/8Cc1zDwf/milad-fakurian-E8-Ufcyxz514-unsplash-1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Score Keeper
+                                </p>
+                                <button class="card-header-icon" aria-label="more options">
+                                    <span class="icon">
+                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </header>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h1 class="title is-size-1"><span id="p1Display"> 0 </span> to <span id="p2Display"> 0 </span>
+                                        <h1>
+                                    <p class="subtitle">
+                                        Click the buttons below to keep score.
+                                        
+                                    </p>
+                                    <label for="playto" class="label is-large is-inline">Playing to</label>
+                                    <div class="select-is-rounded is-inline">
+                                        <select name="" id="playto">
+                                            <option value="3">3</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            </select>
+                                    </div>
+                                </label>
+                                </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <button id="p1Btn" class="is-primary button card-footer-item is-large">+1 Player One</button>
+                                        <button id="p2Btn" class="is-info button card-footer-item is-large">+1 Player Two</button>
+                                        <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+                                        
+                                    </footer>
+                                </div>
+                            </div>
+                           
+                        </div>
+                       
+                            <ul id="scoreBoard">
+                                
+                            </ul>
+                        
+    
+                        <script src="script.js"></script>
+                    </body>
+               
+            </html>
+
+
+        </section>
+    
+
+
+
+
